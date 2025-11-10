@@ -32,8 +32,10 @@ Below is a summary of the features used in model training:
 
 ### 1️⃣ Data Visualization
 Performed exploratory analysis and visualizations to understand feature relationships:
-- **Correlation Matrix** → Identified multicollinearity between variables  
-- **Distribution & Pair Plots** → Explored patterns in distance, duration, and price  
+- **Correlation Matrix** → Identified multicollinearity between variables
+  ![image alt](https://github.com/JAY7962/Taxi-Price-Prediction-/blob/53e5d37dc6db90558e91363850c871d6b69a5543/Outputs/correlation_matrix.png)
+- **Distribution & Pair Plots** → Explored patterns in distance, duration, and price
+  ![image alt](https://github.com/JAY7962/Taxi-Price-Prediction-/blob/53e5d37dc6db90558e91363850c871d6b69a5543/Outputs/data_visualization.png)
 
 ### 2️⃣ Data Preprocessing
 - Loaded and cleaned the dataset (handled **missing** and **invalid** entries)  
@@ -48,6 +50,7 @@ Performed exploratory analysis and visualizations to understand feature relation
   - **Mean Squared Error (MSE)**
   - **R² Score**
 - Visualized **actual vs predicted fares** to assess prediction accuracy
+![image alt](https://github.com/JAY7962/Taxi-Price-Prediction-/blob/53e5d37dc6db90558e91363850c871d6b69a5543/Outputs/prediction.png)
 
 ---
 
@@ -73,11 +76,4 @@ Optimized feature scaling and encoding pipelines further improved consistency an
 | Machine Learning | scikit-learn |
 | Environment | Jupyter Notebook |
 
----
 
-## 🚀 Installation & Usage
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/AShr12xz/Taxi-Price-Prediction.git
-cd Taxi-Price-Prediction
